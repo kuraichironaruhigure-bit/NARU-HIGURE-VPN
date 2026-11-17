@@ -1,0 +1,54 @@
+[
+  {
+    "name": "SSH",
+    "type": "tunnel option",
+    "engine_included": false,
+    "ports": [
+      80,
+      443,
+      8080
+    ],
+    "port_note": "Use only ports supported by the authorised provider."
+  },
+  {
+    "name": "Slow DNS",
+    "type": "tunnel option",
+    "engine_included": false,
+    "settings_ui_included": true,
+    "note": "Compatible Slow DNS engine and provider-specific settings are still needed."
+  },
+  {
+    "name": "SSL/TLS",
+    "type": "tunnel option",
+    "engine_included": false
+  },
+  {
+    "name": "WireGuard",
+    "type": "VPN protocol",
+    "engine_included": true,
+    "requires": "Import a valid authorised WireGuard client .conf file."
+  },
+  {
+    "name": "HTTP Proxy",
+    "type": "proxy option",
+    "engine_included": false
+  },
+  {
+    "name": "SNI Host",
+    "type": "connection setting",
+    "engine_included": false,
+    "note": "A setting for a compatible tunnel method, not a standalone protocol."
+  },
+  {
+    "name": "Payload",
+    "type": "connection setting",
+    "engine_included": false,
+    "note": "A setting for a compatible tunnel method, not a standalone protocol."
+  },
+  {
+    "name": "Custom DNS",
+    "type": "DNS setting",
+    "default": "8.8.8.8",
+    "note": "DNS resolver only; it is not a VPN server."
+  }
+]

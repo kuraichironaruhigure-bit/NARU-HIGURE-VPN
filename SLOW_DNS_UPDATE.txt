@@ -1,0 +1,5 @@
+NARU HIGURE VPN v1.1 update
+
+Added Slow DNS to the connection-method selector and added local fields for provider server address and optional port. These settings are not a working tunnel. A compatible Slow DNS engine and authorised provider protocol details are still required before a Slow DNS connection can be implemented.
+
+Only WireGuard is implemented as a tunnel in this starter project. No APK has been built or tested.

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Random Server",
+    "location": "Any Location",
+    "kind": "automatic",
+    "endpoint_configured": false
+  },
+  {
+    "name": "United States",
+    "location": "New York",
+    "endpoint_configured": false
+  },
+  {
+    "name": "Canada",
+    "location": "Montreal",
+    "endpoint_configured": false
+  },
+  {
+    "name": "Germany",
+    "location": "Frankfurt",
+    "endpoint_configured": false
+  },
+  {
+    "name": "United Kingdom",
+    "location": "London",
+    "endpoint_configured": false
+  },
+  {
+    "name": "Netherlands",
+    "location": "Amsterdam",
+    "endpoint_configured": false
+  },
+  {
+    "name": "France",
+    "location": "Paris",
+    "endpoint_configured": false
+  },
+  {
+    "name": "Austria",
+    "location": "Vienna",
+    "endpoint_configured": false
+  },
+  {
+    "name": "Australia",
+    "location": "Tasmania",
+    "endpoint_configured": false
+  },
+  {
+    "name": "Brazil",
+    "location": "Sao Paulo",
+    "endpoint_configured": false
+  },
+  {
+    "name": "Singapore",
+    "location": "Singapore",
+    "endpoint_configured": false
+  },
+  {
+    "name": "India",
+    "location": "Bangalore",
+    "endpoint_configured": false
+  },
+  {
+    "name": "Game | EU",
+    "location": "EU gaming location",
+    "endpoint_configured": false
+  }
+]
